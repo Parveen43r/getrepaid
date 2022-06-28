@@ -345,33 +345,27 @@ nav .navigation ul li a:hover {
     border-radius: 15px;
 }
 
-ul.pro-links li {
-  display: inline-block;
-  margin: 0px 5px;
+.pro-links {
+    margin-top: 10px;
 }
 
-ul.pro-links {
-  text-align: center;
-  margin-top: 70px;
+.pro-links i {
+    padding: 10px 13px;
+    border: 1px solid rgb(21, 21, 100);
+    cursor: pointer;
+    transition: 0.3s ease;
+    border-radius: 50%;
+    font-size: 25px;
+    line-height: 25px;
+    width: calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em)));
 }
 
-ul.pro-links li a {
-  width: 44px;
-  height: 44px;
-  display: inline-block;
-  text-align: center;
-  line-height: 44px;
-  background-color: #fff;
-  color: #dc8cdb;
-  border-radius: 50%;
-  transition: all .5s;
+.pro-links i:hover {
+    background: rgb(21, 21, 100);
+    color: #fff;
+    border: 1px solid rgb(21, 21, 100);
+    cursor: pointer;
 }
-
-ul.pro-links li a:hover {
-  background-color: #dc8cdb;
-  color: #fff;
-}
-
 /* footer */
 
 footer {
